@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springbootrestapioauth:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springbootrestapioauth</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springbootrestapioauth.war">
+      <element id="artifact" artifact-name="springbootrestapioauth:war exploded" />
+    </root>
+  </artifact>
+</component>
